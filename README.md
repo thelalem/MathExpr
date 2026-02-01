@@ -38,19 +38,18 @@ and generates stack-based VM instructions executable in a custom virtual machine
 
 ---
 
-# Project Structure
+## Project Structure
+```text
 mathExpr/
-├── lexer.py # Tokenizes input expressions
-├── parser.py # Parses tokens and builds AST
-├── ast_nodes.py # AST node classes with pretty-printing
+├── lexer.py        # Tokenizes input expressions
+├── parser.py       # Parses tokens and builds AST
+├── ast_nodes.py    # AST node classes with pretty-printing
 ├── type_checker.py # Semantic analysis (type checking)
-├── optimizer.py # Constant folding optimizer
-├── codegen.py # Stack-based VM code generator
-├── vm.py # Stack-based virtual machine
-├── main.py # Example program to run expressions
-└── README.md # Project documentation
-
-
+├── optimizer.py    # Constant folding optimizer
+├── codegen.py      # Stack-based VM code generator
+├── vm.py           # Stack-based virtual machine
+├── main.py         # Example program to run expressions
+└── README.md       # Project documentation
 
 ---
 
