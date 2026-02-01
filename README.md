@@ -7,10 +7,9 @@ It performs lexical analysis, parsing, type checking, optimization (constant fol
 and generates stack-based VM instructions executable in a custom virtual machine.
 
 ---
-
 ## Group Members
 
-- **Zelalem Argaw Wodajo**
+- **Zelalem Argaw**
 - **Khalid Abduljelil**
 - **Naod Wubshet**
 - **Edomiyas Wondwossen**
@@ -39,7 +38,7 @@ and generates stack-based VM instructions executable in a custom virtual machine
 
 ---
 
-## Project Structure
+# Project Structure
 mathExpr/
 ├── lexer.py # Tokenizes input expressions
 ├── parser.py # Parses tokens and builds AST
@@ -85,7 +84,7 @@ python main.py
 - Custom stack-based VM executes arithmetic expressions with variables and math functions.
 - Designed for educational purposes and Compiler Design coursework.
 
-## Course Information
+# Course Information
 Course: Compiler Design
 Year: 3rd Year
 Date: 2026-01-28
