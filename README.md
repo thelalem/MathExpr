@@ -50,7 +50,7 @@ mathExpr/
 ├── vm.py           # Stack-based virtual machine
 ├── main.py         # Example program to run expressions
 └── README.md       # Project documentation
-
+```
 ---
 
 ## Setup & Run
