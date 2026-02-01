@@ -58,14 +58,19 @@ mathExpr/
 ```bash
 git clone <https://github.com/thelalem/MathExpr>
 cd mathExpr
+```
 2. Run main.py
+```bash
 python main.py
+```
 3. Edit main.py to change the expressions or variable values
-
     Example:
+   ```bash
     text = "sin(a + 2) * 3"
     variables = {"a": 1}
-
+   ```
+    Output
+   ```
     AST: ((SIN((Var(a) PLUS Number(2.0))) MUL Number(3.0))
     Optimized AST: ((SIN((Var(a) PLUS Number(2.0))) MUL Number(3.0))
     Generated VM code:
@@ -76,8 +81,8 @@ python main.py
     PUSH 3.0
     MUL
     Result: 0.4233600241796016
-```
-
+   ```
+   
 # Notes
 - Fully demonstrates compiler phases from lexing → parsing → AST → type checking → optimization → code generation → execution.
 - Custom stack-based VM executes arithmetic expressions with variables and math functions.
